@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">โลโก้ Facebook Home</string>
+    <string name="app_missing">คุณต้องติดตั้งแอพ Facebook เพื่อใช้ Facebook Home</string>
+    <string name="app_missing_button_text">ติดตั้ง Facebook</string>
+    <string name="app_outdated">คุณต้องอัพเดตแอพ Facebook เพื่อใช้ Facebook Home</string>
+    <string name="app_outdated_button_text">อัพเดต Facebook</string>
+    <string name="app_disabled">แอพ Facebook ถูกปิดใช้งาน คุณต้องเปิดใช้งานเพื่อใช้ Facebook Home</string>
+    <string name="app_disabled_button_text">เปิดใช้งาน Facebook</string>
+    <string name="app_security_mismatch">คุณต้องมีแอพ Facebook เพื่อเซ็นชื่อด้วยใบรับรองเดียวกันกับ Facebook Home</string>
+    <string name="app_security_mismatch_button_text">ติดตั้ง Facebook</string>
+    <string name="app_reenable_toast">โปรดแตะ \"เปิดใช้งาน\" เพื่อเปิดใช้งาน Facebook สำหรับ Android ใหม่ คุณอาจต้องถอนการติดตั้งการอัพเดตก่อน</string>
+</resources>

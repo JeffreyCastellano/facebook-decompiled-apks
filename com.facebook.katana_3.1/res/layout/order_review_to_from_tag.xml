@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/layout_recipient_gift_tag" android:background="@drawable/cell" android:padding="@dimen/standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/standard_padding">
+        <com.facebook.widget.UrlImage android:id="@id/ksimage_recipient_avatar" android:layout_width="@dimen/order_overview_avatar_dimensions" android:layout_height="@dimen/order_overview_avatar_dimensions" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/standard_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ksimage_recipient_avatar" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/standard_13pt_text_size" android:textColor="@color/standard_gray_808080" android:id="@id/text_recipient_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_overview_tag_gift_for_header" android:singleLine="true" />
+            <TextView android:textSize="@dimen/standard_14pt_text_size" android:textStyle="bold" android:textColor="@color/standard_gray_3e4350" android:ellipsize="end" android:id="@id/text_recipient_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

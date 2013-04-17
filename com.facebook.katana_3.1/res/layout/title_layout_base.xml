@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.katana.ui.JewelTitleBar android:id="@id/titlebar" android:background="@drawable/global_top_background_new" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/title_jewels" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <com.facebook.katana.ui.JewelButton android:layout_gravity="center_vertical" android:id="@id/title_friends" android:layout_width="wrap_content" android:layout_height="wrap_content" orca:activeImage="@drawable/mondobar_jewel_friends_active" orca:contentDescription="@string/accessibility_jewel_friends" orca:inactiveImage="@drawable/mondobar_jewel_friends_inactive" />
+        <com.facebook.katana.ui.JewelButton android:layout_gravity="center_vertical" android:id="@id/title_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" orca:activeImage="@drawable/mondobar_jewel_messages_active" orca:contentDescription="@string/accessibility_jewel_inbox" orca:inactiveImage="@drawable/mondobar_jewel_messages_inactive" />
+        <com.facebook.katana.ui.JewelButton android:layout_gravity="center_vertical" android:id="@id/title_notifications" android:layout_width="wrap_content" android:layout_height="wrap_content" orca:activeImage="@drawable/mondobar_jewel_notifications_active" orca:contentDescription="@string/accessibility_jewel_notifications" orca:inactiveImage="@drawable/mondobar_jewel_notifications_inactive" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/title_jewels" android:layout_alignParentLeft="true">
+        <include layout="@layout/launcher_button" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ProgressBar android:id="@id/title_progress" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_margin="16.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleLargeInverse" />
+        <include layout="@layout/action_buttons" />
+    </LinearLayout>
+    <include layout="@layout/title_layout_highlights" />
+</com.facebook.katana.ui.JewelTitleBar>

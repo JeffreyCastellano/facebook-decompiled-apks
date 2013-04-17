@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Logo Facebook Home</string>
+    <string name="app_missing">Musíte nainstalovat aplikaci Facebook, abyste mohli používat Facebook Home.</string>
+    <string name="app_missing_button_text">Instalovat Facebook</string>
+    <string name="app_outdated">Musíte aktualizovat aplikaci Facebook, abyste mohli používat Facebook Home.</string>
+    <string name="app_outdated_button_text">Aktualizovat Facebook</string>
+    <string name="app_disabled">Aplikace Facebook je zakázána. Musíte ji povolit, abyste mohli používat Facebook Home.</string>
+    <string name="app_disabled_button_text">Povolit Facebook</string>
+    <string name="app_security_mismatch">Aplikace Facebook musí být podepsána stejným certifikátem jako Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Instalovat Facebook</string>
+    <string name="app_reenable_toast">Klepnutím na možnost „Povolit“ znovu povolte Facebook pro Android. Možná budete muset nejprve odinstalovat aktualizace.</string>
+</resources>

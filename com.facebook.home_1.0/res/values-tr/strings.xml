@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Facebook Home logosu</string>
+    <string name="app_missing">"Facebook Home'u kullanabilmek için Facebook uygulamasını yüklemelisin."</string>
+    <string name="app_missing_button_text">"Facebook'u Yükle"</string>
+    <string name="app_outdated">"Facebook Home'u kullanabilmek için Facebook uygulamanı güncellemelisin."</string>
+    <string name="app_outdated_button_text">"Facebook'u Güncelle"</string>
+    <string name="app_disabled">"Facebook uygulaması devre dışı. Facebook Home'u kullanabilmek için onu etkinleştirmelisin."</string>
+    <string name="app_disabled_button_text">"Facebook'u Etkinleştir"</string>
+    <string name="app_security_mismatch">Facebook uygulamasının Facebook Home ile aynı sertifikayla imzalanması gerekiyor.</string>
+    <string name="app_security_mismatch_button_text">"Facebook'u Yükle"</string>
+    <string name="app_reenable_toast">"Android için Facebook'u yeniden etkinleştirmek için lütfen Etkinleştir'e dokun. Önce güncellemeleri kaldırman gerekebilir."</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Logotypen för Facebook Home</string>
+    <string name="app_missing">Du måste installera Facebook-applikationen för att kunna använda Facebook Home.</string>
+    <string name="app_missing_button_text">Installera Facebook</string>
+    <string name="app_outdated">Du måste uppdatera din Facebook-applikation för att kunna använda Facebook Home.</string>
+    <string name="app_outdated_button_text">Uppdatera Facebook</string>
+    <string name="app_disabled">Facebook-applikationen har inaktiverats. Du måste aktivera den för att använda Facebook Home.</string>
+    <string name="app_disabled_button_text">Aktivera Facebook</string>
+    <string name="app_security_mismatch">Facebook-applikationen måste vara signerad med samma certifikat som Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Installera Facebook</string>
+    <string name="app_reenable_toast">Tryck på \"Aktivera\" för att återaktivera Facebook för Android. Du kanske först måste avinstallera uppdateringar.</string>
+</resources>

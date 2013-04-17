@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_26 (Sun Microsystems Inc.)
+
+Name: res/drawable/white_button.xml
+SHA1-Digest: k/1scWpIeQir3ODNqiO5+E/pTPo=
+
+Name: res/drawable-xxhdpi/fbhome_icon.png
+SHA1-Digest: 8qVTL8xkHofiHEcrxfEHEW2HS+w=
+
+Name: res/drawable-xhdpi/white_button_normal.9.png
+SHA1-Digest: A6FLJfgzHi595HhwqM11vVM0K1Y=
+
+Name: res/drawable-mdpi/fbhome_icon.png
+SHA1-Digest: AjxykjG8gevwHhDqTp5HnrBZZyY=
+
+Name: res/drawable/blue_background.xml
+SHA1-Digest: yMQdMRVVj68FqwFrRa7bTr8zyK8=
+
+Name: res/layout/launcher_screen.xml
+SHA1-Digest: YkJtPt4gVbnpRi6i9YrpFflJxdY=
+
+Name: res/drawable-ldpi/fbhome_icon.png
+SHA1-Digest: uskIIfVkmUmy51cl6wiHIymADmM=
+
+Name: res/drawable-xhdpi/white_button_pressed.9.png
+SHA1-Digest: v4BzCvL6qsctWS9X2lza4LzDXOs=
+
+Name: resources.arsc
+SHA1-Digest: sq3k8Ib+yvVltkcPa8NnAem+vBE=
+
+Name: res/drawable-xhdpi/white_spinner.png
+SHA1-Digest: fUCgN6LhNniDRg6zCuruui3IQWk=
+
+Name: classes.dex
+SHA1-Digest: I6YYcjr05XRC9vi5sGjTdBUJAss=
+
+Name: res/drawable-hdpi/fbhome_icon.png
+SHA1-Digest: D26+sA5qVYVd13wnskPh2a94O7k=
+
+Name: assets/fonts/HelveticaNeue-Bold.ttf
+SHA1-Digest: vOoDqHYwl27MXJ2g+ViLdaVFmCI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 3D4JPtKEV/lixVyn8cM202w0XtE=
+
+Name: assets/fonts/HelveticaNeue-Roman.ttf
+SHA1-Digest: 3rI/i+E2H0tTHUX7OMk5z5o70rs=
+
+Name: assets/fonts/HelveticaNeue-Light.ttf
+SHA1-Digest: MeSbFxMsZwSQIPoE2AOgXm58fm0=
+
+Name: res/drawable-xhdpi/fbhome_icon.png
+SHA1-Digest: QWuG0mrD8pD5hbqfzXD6HPndzvc=
+
+Name: res/drawable/white_spinner_indeterminate.xml
+SHA1-Digest: 9I86NQtSDBNj3bXBM7aor0vwLRo=
+
+Name: res/drawable-xhdpi/logo_facebook_home_text.png
+SHA1-Digest: IO6Z+LO28wwMQ+ia12gjyDzBm3k=
+

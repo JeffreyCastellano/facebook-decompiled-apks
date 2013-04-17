@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Logo ng Facebook Home</string>
+    <string name="app_missing">Kailangan mong i-install ang Facebook app upang magamit ang Facebook Home.</string>
+    <string name="app_missing_button_text">I-install ang Facebook</string>
+    <string name="app_outdated">Kailangan mong i-update ang iyong Facebook app upang gamitin ang Facebook Home.</string>
+    <string name="app_outdated_button_text">I-update ang Facebook</string>
+    <string name="app_disabled">Hindi pinagana ang Facebook app. Kailangan mo itong paganahin upang gamitin ang Facebook Home.</string>
+    <string name="app_disabled_button_text">Paganahin ang Facebook</string>
+    <string name="app_security_mismatch">Kailangan mo ang Facebook app na may lagda ng parehong certificate na tulad ng sa Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">I-install ang Facebook</string>
+    <string name="app_reenable_toast">Paki-tap ang \"Paganahin\" upang muling paganahin ang Facebook para sa Android. Maaaring kailanganin mo munang mag-uninstall ng mga update.</string>
+</resources>

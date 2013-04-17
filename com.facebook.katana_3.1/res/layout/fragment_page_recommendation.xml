@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@*android:color/white" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.UrlImage android:id="@id/page_actor_image" android:layout_width="@dimen/page_identity_user_pic_size" android:layout_height="@dimen/page_identity_user_pic_size" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/page_actor_image">
+            <TextView android:textStyle="bold" android:id="@id/page_recommendation_creator" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PageIdentityCardText.Darker" />
+            <TextView android:id="@id/page_recommendation_comment_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/PageIdentityCardText.Lighter" />
+            <FrameLayout android:id="@id/recommendation_rating_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <RatingBar android:id="@id/recommendation_friend_rating" android:focusable="false" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="4.0dip" android:progressDrawable="@drawable/star_small_blue_composite" android:numStars="5" android:isIndicator="true" />
+                <RatingBar android:id="@id/recommendation_non_friend_rating" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="4.0dip" android:progressDrawable="@drawable/star_small_black_composite" android:numStars="5" android:isIndicator="true" />
+            </FrameLayout>
+            <TextView android:id="@id/page_recommendation_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/PageIdentityCardText" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

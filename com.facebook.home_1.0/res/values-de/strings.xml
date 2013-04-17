@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Facebook Home-Logo</string>
+    <string name="app_missing">Du musst die Facebook-Anwendung installieren, um Facebook Home verwenden zu können.</string>
+    <string name="app_missing_button_text">Facebook installieren</string>
+    <string name="app_outdated">Du musst deine Facebook-Anwendung aktualisieren, um Facebook Home nutzen zu können.</string>
+    <string name="app_outdated_button_text">Facebook aktualisieren</string>
+    <string name="app_disabled">Die Facebook-Anwendung ist deaktiviert. Du musst sie aktivieren, um Facebook Home verwenden zu können.</string>
+    <string name="app_disabled_button_text">Facebook aktivieren</string>
+    <string name="app_security_mismatch">Du musst die Facebook-Anwendung installieren, um mit dem gleichen Zertifikat angemeldet zu sein wie bei Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Facebook installieren</string>
+    <string name="app_reenable_toast">Bitte tippe zuerst auf „Aktivieren“, um Facebook für Android wieder zu aktivieren. Eventuell musst du erst Updates deinstallieren.</string>
+</resources>

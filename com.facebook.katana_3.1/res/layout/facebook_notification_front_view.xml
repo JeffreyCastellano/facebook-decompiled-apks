@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/notification_panel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/notification_panel_highlights" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/notif_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.MaskedFrameLayout android:layout_width="@dimen/notification_profile_pic_width" android:layout_height="@dimen/notification_profile_pic_height" android:foreground="@drawable/notif_profile_photo_highlights" fb:mask="@drawable/notif_profile_photo_mask">
+            <com.facebook.widget.UrlImage android:id="@id/notification_sender" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:scaleType="centerCrop" />
+        </com.facebook.widget.MaskedFrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <TextView android:textSize="@dimen/notification_text_size" android:textColor="@color/notification_text_color" android:ellipsize="end" android:id="@id/notification_text" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/notification_text" />
+            <com.facebook.dash.ui.notifications.ThumbnailPhotoView android:id="@id/notification_thumbnail_view" android:visibility="gone" android:layout_width="@dimen/notification_thumbnail_width" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="3.0dip" android:foreground="@drawable/notification_thumbnail_shadow" fb:mask="@drawable/notification_thumbnail_mask" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

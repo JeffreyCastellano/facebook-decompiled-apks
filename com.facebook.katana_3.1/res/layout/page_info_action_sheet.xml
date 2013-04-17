@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="54.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/page_identity_email_button_container" android:visibility="visible" android:layout_width="@dimen/page_identity_action_sheet_separator_width" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <Button android:id="@id/page_identity_action_sheet_send_email" android:layout_width="fill_parent" android:text="@string/page_identity_action_email" style="@style/PageIdentityActionSheetButton" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/page_identity_view_site_button_container" android:visibility="visible" android:layout_width="@dimen/page_identity_action_sheet_separator_width" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include layout="@layout/page_identity_action_sheet_separator" />
+        <Button android:id="@id/page_identity_action_sheet_view_site_button" android:layout_width="fill_parent" android:text="@string/page_identity_action_view_website" style="@style/PageIdentityActionSheetButton" />
+    </LinearLayout>
+</LinearLayout>

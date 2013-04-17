@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/feed_story_item_generic_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/feed_story_dark_gray_text_color" android:gravity="left|center" android:id="@id/feed_birthdays_title" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/feed_story_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/feed_story_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/birthday_list_container" android:background="@drawable/feed_attachment_background_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="@dimen/one_px" />
+    <View android:id="@id/celebrations_feed_unit_footer_divider" android:background="@color/feed_feedback_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/one_px" android:layout_marginLeft="@dimen/feed_story_margin" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/feed_story_margin" />
+    <LinearLayout android:gravity="center" android:id="@id/celebrations_feed_unit_footer_section" android:background="@drawable/feed_generic_press_state_background_rounded" android:layout_width="fill_parent" android:layout_height="@dimen/see_all_footer_height" android:layout_marginLeft="@dimen/feed_story_margin" android:layout_marginRight="@dimen/feed_story_margin" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/feed_text_body_color" android:id="@id/celebrations_feed_unit_see_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feed_birthdays_see_all" />
+    </LinearLayout>
+</LinearLayout>

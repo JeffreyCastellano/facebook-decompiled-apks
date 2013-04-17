@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.orca.common.ui.titlebar.TitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:title="@string/composer_publish_title_text" fb:hasBackButton="false" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.widget.UrlImage android:id="@id/composer_profile_pic" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:adjustViewBounds="true" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_toRightOf="@id/composer_profile_pic" android:layout_above="@id/action_bar">
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/composer_status_text_view" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/composer_publish_hint_text" android:inputType="textMultiLine" />
+                <ImageView android:id="@id/composer_attachment_item_image" android:background="@drawable/attachment_background" android:padding="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/composer_status_text_view" />
+            </RelativeLayout>
+        </ScrollView>
+        <RelativeLayout android:id="@id/action_bar" android:background="@drawable/composer_action_bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/composer_action_bar_height" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

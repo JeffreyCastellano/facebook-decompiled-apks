@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Logo Facebook Home</string>
+    <string name="app_missing">Anda perlu memasang aplikasi Facebook untuk menggunakan Facebook Home.</string>
+    <string name="app_missing_button_text">Pasang Facebook</string>
+    <string name="app_outdated">Anda perlu mengemas kini aplikasi Facebook anda untuk menggunakan Facebook Home.</string>
+    <string name="app_outdated_button_text">Kemas Kini Facebook</string>
+    <string name="app_disabled">Aplikasi Facebook dinyahdayakan. Anda perlu mendayakannya untuk menggunakan Facebook Home.</string>
+    <string name="app_disabled_button_text">Mendayakan Facebook</string>
+    <string name="app_security_mismatch">Anda memerlukan aplikasi Facebook didaftarkan dengan sijil yang serupa dengan Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Pasang Facebook</string>
+    <string name="app_reenable_toast">Sila ketik \"Dayakan\" untuk mendayakan semula Facebook untuk Android. Anda mungkin perlu membuang pemasangan kemas kinian terlebih dahulu.</string>
+</resources>

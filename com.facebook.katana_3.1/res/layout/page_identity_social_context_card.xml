@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RatingBar android:layout_gravity="center_horizontal" android:id="@id/page_identity_overall_rating" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginTop="12.0dip" android:progressDrawable="@drawable/star_big_blue_composite" android:numStars="5" android:isIndicator="true" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/page_identity_total_raters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" style="@style/PageIdentityStatDescriptionText" />
+    <include android:id="@id/page_identity_ratings_divider" layout="@layout/page_identity_card_divider" />
+    <com.facebook.pages.identity.ui.about.PageIdentityLikesCheckinsCardUnitView android:id="@id/page_identity_likes_checkins_card_unit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="53.0dip" />
+    <include android:id="@id/page_identity_likes_checkins_divider" android:visibility="gone" layout="@layout/page_identity_card_divider" />
+    <RelativeLayout android:id="@id/page_identity_friends_info_unit" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/page_identity_friends_info_chevron" android:background="@drawable/page_identity_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textStyle="bold" android:id="@id/page_identity_friends_info_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/page_identity_friends_info_chevron" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/PageIdentityCardText" />
+    </RelativeLayout>
+    <include android:id="@id/page_identity_friends_info_unit_divider" layout="@layout/page_identity_card_divider" />
+    <com.facebook.pages.identity.ui.about.PageIdentityFriendsHereNowCardUnitView android:id="@id/page_identity_friends_here_now_unit" android:background="@drawable/page_identity_card_clickable_highlighted_unit_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.pages.identity.ui.about.PageIdentityTopRecommendationsView android:id="@id/page_identity_top_recommendations" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/page_identity_recommendations_divider" android:visibility="gone" layout="@layout/page_identity_card_divider" />
+    <RelativeLayout android:id="@id/page_identity_recommendations_unit" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_identity_all_recommendations" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/PageIdentityCardText" />
+        <ImageView android:id="@id/page_identity_chevron" android:background="@drawable/page_identity_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include android:id="@id/page_identity_loading_view_divider" layout="@layout/page_identity_card_divider" />
+    <LinearLayout android:gravity="center" android:id="@id/page_identity_social_context_loading_view" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/page_identity_loading_details" style="@style/PageIdentityCardText" />
+    </LinearLayout>
+</LinearLayout>

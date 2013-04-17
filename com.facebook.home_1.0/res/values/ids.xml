@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dash_fb4a_login_logo">false</item>
+    <item type="id" name="spinner">false</item>
+    <item type="id" name="launcher_action_container">false</item>
+    <item type="id" name="disclosure_text_container">false</item>
+    <item type="id" name="error_text">false</item>
+    <item type="id" name="apk_play_link">false</item>
+</resources>

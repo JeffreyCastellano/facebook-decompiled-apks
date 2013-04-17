@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Λογότυπο Facebook Home</string>
+    <string name="app_missing">Για να χρησιμοποιήσετε το Facebook Home, πρέπει να εγκαταστήσετε την εφαρμογή Facebook.</string>
+    <string name="app_missing_button_text">Εγκατάσταση Facebook</string>
+    <string name="app_outdated">Για να χρησιμοποιήσετε το Facebook Home, πρέπει να ενημερώσετε την εφαρμογή Facebook.</string>
+    <string name="app_outdated_button_text">Ενημέρωση εφαρμογής Facebook</string>
+    <string name="app_disabled">Η εφαρμογή Facebook είναι απενεργοποιημένη. Για να χρησιμοποιήσετε το Facebook Home, πρέπει να την ενεργοποιήσετε.</string>
+    <string name="app_disabled_button_text">Ενεργοποίηση Facebook</string>
+    <string name="app_security_mismatch">Η εφαρμογή Facebook πρέπει να έχει το ίδιο πιστοποιητικό με το Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Εγκατάσταση Facebook</string>
+    <string name="app_reenable_toast">Πατήστε \"Ενεργοποίηση\" για να ενεργοποιήσετε ξανά το Facebook για Android. Ίσως πρώτα χρειαστεί να απεγκαταστήσετε τις ενημερώσεις.</string>
+</resources>

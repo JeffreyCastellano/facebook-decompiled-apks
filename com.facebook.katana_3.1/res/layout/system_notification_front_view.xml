@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/system_notification_view" android:background="@drawable/notification_panel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/notification_panel_highlights" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/notif_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.MaskedFrameLayout android:layout_width="@dimen/notification_profile_pic_width" android:layout_height="@dimen/notification_profile_pic_height" android:foreground="@drawable/notif_profile_photo_highlights" fb:mask="@drawable/notif_profile_photo_mask">
+            <ImageView android:id="@id/system_notif_icon" android:background="#55e7e6e6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        </com.facebook.widget.MaskedFrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textStyle="bold" android:textColor="@color/notification_text_color" android:ellipsize="end" android:id="@id/system_notif_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/notification_text" />
+            <TextView android:textColor="@color/notification_text_color" android:ellipsize="end" android:id="@id/system_notif_text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/notification_text" />
+            <TextView android:textColor="@color/notification_text_color" android:ellipsize="end" android:id="@id/system_notif_text3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/notification_text" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

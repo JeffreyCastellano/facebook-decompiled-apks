@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Facebook Home-logo</string>
+    <string name="app_missing">Jy moet die Facebook-toepassing installeer om Facebook Home te gebruik.</string>
+    <string name="app_missing_button_text">Installeer Facebook</string>
+    <string name="app_outdated">Jy moet jou Facebook-toepassing bywerk om Facebook Home te gebruik.</string>
+    <string name="app_outdated_button_text">Werk Facebook by</string>
+    <string name="app_disabled">Die Facebook-toepassing is versper. Jy moet dit ontsper om Facebook Home te kan gebruik.</string>
+    <string name="app_disabled_button_text">Ontsper Facebook</string>
+    <string name="app_security_mismatch">Jy het nodig dat die Facebook-toepassing met dieselfde sertifikaat geteken word as Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Installeer Facebook</string>
+    <string name="app_reenable_toast">Tik asseblief op \"Ontsper\" om Facebook vir Android weer te ontsper. Jy sal moontlik eers bywerkings moet deïnstalleer.</string>
+</resources>

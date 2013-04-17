@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Logo van Facebook Home</string>
+    <string name="app_missing">Als je Facebook Home wilt gebruiken, moet je de Facebook-app installeren.</string>
+    <string name="app_missing_button_text">Facebook installeren</string>
+    <string name="app_outdated">Als je Facebook Home wilt gebruiken, moet je je Facebook-app bijwerken.</string>
+    <string name="app_outdated_button_text">Facebook bijwerken</string>
+    <string name="app_disabled">De Facebook-app is uitgeschakeld. Je moet de app inschakelen als je Facebook Home wilt gebruiken.</string>
+    <string name="app_disabled_button_text">Facebook inschakelen</string>
+    <string name="app_security_mismatch">De Facebook-app moet worden ondertekend met hetzelfde certificaat als Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Facebook installeren</string>
+    <string name="app_reenable_toast">Tik op Inschakelen om Facebook voor Android opnieuw in te schakelen. Het kan zijn dat je eerst updates moet verwijderen.</string>
+</resources>

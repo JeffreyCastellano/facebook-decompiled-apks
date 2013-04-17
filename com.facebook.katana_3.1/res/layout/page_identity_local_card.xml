@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.MapImage android:id="@id/page_identity_map" android:layout_width="fill_parent" android:layout_height="70.0dip" orca:zoom="15" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_identity_map_location" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <include layout="@layout/page_identity_card_divider" />
+    <RelativeLayout android:id="@id/page_identity_directions_unit" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <ImageView android:id="@id/page_identity_directions_icon" android:background="@drawable/page_identity_directions_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/page_identity_directions_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/page_identity_directions_icon" android:layout_centerVertical="true" style="@style/PageIdentityCardText.Bigger.Darker" />
+        <TextView android:id="@id/page_identity_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/page_identity_get_directions" android:layout_toLeftOf="@id/page_identity_directions_distance" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/PageIdentityCardText.Bigger.Darker" />
+    </RelativeLayout>
+    <include layout="@layout/page_identity_card_divider" />
+    <RelativeLayout android:id="@id/page_identity_hours_price_unit" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:animateLayoutChanges="true">
+            <TextView android:id="@id/page_identity_open_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_identity_more_info" android:layout_alignParentLeft="true" style="@style/PageIdentityCardText.Bigger.Darker" />
+            <TextView android:id="@id/page_identity_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0sp" android:layout_toRightOf="@id/page_identity_open_status" android:layout_alignBaseline="@id/page_identity_open_status" style="@style/PageIdentityCardText.Bigger.Darker" />
+            <TextView android:id="@id/page_identity_price_range" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/page_identity_open_status" android:layout_alignParentLeft="true" style="@style/PageIdentityCardText.Bigger.Darker" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/page_identity_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include layout="@layout/page_identity_card_divider" />
+    <RelativeLayout android:id="@id/page_identity_timeline_button" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_identity_view_timeline" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/PageIdentityCardText.Bigger.Darker" />
+        <ImageView android:background="@drawable/page_identity_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

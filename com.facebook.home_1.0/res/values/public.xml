@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="blue_background" id="0x7f020000" />
+    <public type="drawable" name="white_button" id="0x7f020003" />
+    <public type="drawable" name="white_spinner_indeterminate" id="0x7f020007" />
+    <public type="drawable" name="fbhome_icon" id="0x7f020001" />
+    <public type="drawable" name="logo_facebook_home_text" id="0x7f020002" />
+    <public type="drawable" name="white_button_normal" id="0x7f020004" />
+    <public type="drawable" name="white_button_pressed" id="0x7f020005" />
+    <public type="drawable" name="white_spinner" id="0x7f020006" />
+    <public type="layout" name="launcher_screen" id="0x7f030000" />
+    <public type="color" name="error_shadow_color" id="0x7f040000" />
+    <public type="color" name="error_text_color" id="0x7f040001" />
+    <public type="dimen" name="launcher_layout_padding" id="0x7f050000" />
+    <public type="dimen" name="fb_home_logo_scaled_height" id="0x7f050001" />
+    <public type="dimen" name="fb_home_logo_botton_margin" id="0x7f050002" />
+    <public type="string" name="app_name" id="0x7f060000" />
+    <public type="string" name="app_short_name" id="0x7f060001" />
+    <public type="string" name="fbhome_logo_description" id="0x7f060002" />
+    <public type="string" name="app_missing" id="0x7f060003" />
+    <public type="string" name="app_missing_button_text" id="0x7f060004" />
+    <public type="string" name="app_outdated" id="0x7f060005" />
+    <public type="string" name="app_outdated_button_text" id="0x7f060006" />
+    <public type="string" name="app_disabled" id="0x7f060007" />
+    <public type="string" name="app_disabled_button_text" id="0x7f060008" />
+    <public type="string" name="app_security_mismatch" id="0x7f060009" />
+    <public type="string" name="app_security_mismatch_button_text" id="0x7f06000a" />
+    <public type="string" name="app_reenable_toast" id="0x7f06000b" />
+    <public type="style" name="error_text" id="0x7f070000" />
+    <public type="style" name="launcher_action_button" id="0x7f070001" />
+    <public type="id" name="dash_fb4a_login_logo" id="0x7f080000" />
+    <public type="id" name="spinner" id="0x7f080001" />
+    <public type="id" name="launcher_action_container" id="0x7f080002" />
+    <public type="id" name="disclosure_text_container" id="0x7f080003" />
+    <public type="id" name="error_text" id="0x7f080004" />
+    <public type="id" name="apk_play_link" id="0x7f080005" />
+</resources>

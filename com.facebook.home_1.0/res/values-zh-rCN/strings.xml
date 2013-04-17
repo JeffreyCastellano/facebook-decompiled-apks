@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Facebook Home 标志</string>
+    <string name="app_missing">你需要安装 Facebook 应用程序方可使用 Facebook Home。</string>
+    <string name="app_missing_button_text">安装 Facebook</string>
+    <string name="app_outdated">你需要更新你的 Facebook 应用程序以使用 Facebook Home。</string>
+    <string name="app_outdated_button_text">更新 Facebook</string>
+    <string name="app_disabled">Facebook 应用程序已禁用。你需要启用它以使用 Facebook Home。</string>
+    <string name="app_disabled_button_text">启用 Facebook</string>
+    <string name="app_security_mismatch">你需要用与 Facebook Home 相同的证书对 Facebook 应用程序签名。</string>
+    <string name="app_security_mismatch_button_text">安装 Facebook</string>
+    <string name="app_reenable_toast">请轻点“启用”以重新启用 Android 版 Facebook。可能需要先卸载更新。</string>
+</resources>

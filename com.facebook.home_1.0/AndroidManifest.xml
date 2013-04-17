@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="177826" android:versionName="1.0" package="com.facebook.home"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:name="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:protectionLevel="signature" />
+    <uses-permission android:name="com.facebook.permission.prod.FB_APP_COMMUNICATION" />
+    <application android:label="@string/app_short_name" android:icon="@drawable/fbhome_icon" android:debuggable="false">
+        <meta-data android:name="com.facebook.package_type" android:value="release" />
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="releases/release-fbandroid-2013.04.12" />
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="31c05d9" />
+        <meta-data android:name="launch_package" android:value="com.facebook.katana" />
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar" android:name="com.facebook.home.LauncherActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.home.HomeEnablerActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:exported="true" android:noHistory="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.facebook.home.HomeActivity" android:enabled="false" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.facebook.home.OobeActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:exported="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.home.HomeNuxActivity" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:exported="true" android:noHistory="true" />
+        <activity android:name="com.facebook.home.activities.HomeNuxHelperActivity" android:enabled="false" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".receivers.HomeIntentReleaseBroadcastReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.ACTION_RELEASE_HOME_INTENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.HomeIntentBroadcastReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.ACTION_HOME_INTENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.home.HomeIntentToggleBroadcastReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.ACTION_TOGGLE_HOME_INTENT" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

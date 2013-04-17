@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="launcher_layout_padding">22.0dip</dimen>
+    <dimen name="fb_home_logo_scaled_height">35.0dip</dimen>
+    <dimen name="fb_home_logo_botton_margin">30.0dip</dimen>
+</resources>

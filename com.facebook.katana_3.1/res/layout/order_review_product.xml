@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_order_product" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.UrlImage android:id="@id/ksimage_product_icon" android:layout_width="@dimen/order_overview_product_image_width_full" android:layout_height="@dimen/order_overview_product_image_height" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_product_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_padding" android:layout_toRightOf="@id/ksimage_product_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/standard_14pt_text_size" android:textStyle="bold" android:textColor="@color/standard_gray_424240" android:ellipsize="end" android:id="@id/text_product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/standard_13pt_text_size" android:textColor="@color/standard_gray_6b6b68" android:ellipsize="end" android:id="@id/text_product_sku_options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/standard_12pt_text_size" android:textColor="@color/standard_gray_9c9c99" android:ellipsize="end" android:id="@id/text_product_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/page_identity_all_photos_here_by_friends_button" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/page_identity_text_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/page_identity_photos_from_friends_heading" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/page_identity_photos_by_friends_chevron" android:background="@drawable/page_identity_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/page_identity_photos_by_friends_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/page_identity_photos_by_friends_chevron" android:layout_centerVertical="true" style="@style/PageIdentityCardText.Lighter" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.facebook.pages.identity.ui.about.PhotosByFriendsWidget android:gravity="center" android:orientation="horizontal" android:id="@id/page_identity_photo_here_by_friends_gallery" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="0.0dip" android:unselectedAlpha="1.0" />
+    </LinearLayout>
+</LinearLayout>

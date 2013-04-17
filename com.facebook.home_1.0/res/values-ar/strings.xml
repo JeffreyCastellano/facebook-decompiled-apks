@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">شعار Facebook Home</string>
+    <string name="app_missing">عليك تثبيت تطبيق فيس بوك لاستخدام Facebook Home.</string>
+    <string name="app_missing_button_text">تثبيت فيس بوك</string>
+    <string name="app_outdated">عليك تحديث تطبيق فيس بوك لديك لاستخدام Facebook Home.</string>
+    <string name="app_outdated_button_text">تحديث فيس بوك</string>
+    <string name="app_disabled">إن تطبيق فيس بوك معطل. عليك تمكينه لاستخدام Facebook Home.</string>
+    <string name="app_disabled_button_text">تمكين فيس بوك</string>
+    <string name="app_security_mismatch">يجب أن يكون تطبيق فيس بوك مسجلاً بالشهادة عينها التي تم تسجيل Facebook Home فيها.</string>
+    <string name="app_security_mismatch_button_text">تثبيت فيس بوك</string>
+    <string name="app_reenable_toast">يرجى النقر على \"تمكين\" لإعادة تمكين فيس بوك لجهاز Android. قد يتعين عليك إلغاء تثبيت التحديثات أولاً.</string>
+</resources>

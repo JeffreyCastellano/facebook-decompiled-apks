@@ -1,0 +1,1 @@
+secondary-1.dex.jar 7931a93cd0b36b5e06c00dce5653ce53132fda57 com.facebook.device.DeviceModule

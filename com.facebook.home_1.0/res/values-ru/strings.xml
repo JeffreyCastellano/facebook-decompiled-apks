@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Логотип Facebook Home</string>
+    <string name="app_missing">Вам необходимо установить приложение Facebook для использования Facebook Home.</string>
+    <string name="app_missing_button_text">Установить Facebook</string>
+    <string name="app_outdated">Вам необходимо обновить приложение Facebook для использования Facebook Home.</string>
+    <string name="app_outdated_button_text">Обновить Facebook</string>
+    <string name="app_disabled">Приложение Facebook отключено. Вам необходимо включить его для использования Facebook Home.</string>
+    <string name="app_disabled_button_text">Включить Facebook</string>
+    <string name="app_security_mismatch">Ваше приложение Facebook должно быть заверено тем же сертификатом, что и Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Установить Facebook</string>
+    <string name="app_reenable_toast">Коснитесь \"Включить\", чтобы еще раз включить Facebook для Android. Возможно, вам придется сначала удалить обновления.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/page_identity_bg" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.pages.identity.ui.about.PageIdentityActionSheet android:id="@id/page_identity_action_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/PageIdentityCard" />
+    <com.facebook.pages.identity.ui.about.PageIdentityViewerRatingCardView android:id="@id/page_identity_viewer_rating" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageIdentityCard" />
+    <com.facebook.pages.identity.ui.about.PageIdentityLocalCardView android:id="@id/page_identity_local_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageIdentityCard" />
+    <com.facebook.pages.identity.ui.about.PageIdentityPhotosByFriendsCardView android:id="@id/page_identity_photos_by_friends_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageIdentityCard" />
+    <com.facebook.pages.identity.ui.about.PageIdentitySocialContextCardView android:id="@id/page_identity_social_context_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageIdentityCard" />
+    <FrameLayout android:id="@id/page_identity_write_recommendation_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageIdentityCard">
+        <include android:id="@id/content" layout="@layout/page_identity_write_recommendation_button" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/page_identity_compare_to_faceweb_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PageIdentityCard">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/page_identity_text_light" android:gravity="center" android:id="@id/page_identity_compare_to_faceweb_button" android:background="@drawable/page_identity_card_clickable_unit_background" android:padding="@dimen/page_identity_standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Compare to Faceweb" android:layout_centerVertical="true" />
+    </FrameLayout>
+</LinearLayout>

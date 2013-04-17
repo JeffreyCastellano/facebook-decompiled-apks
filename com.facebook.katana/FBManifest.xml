@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+We are working with partners to get deeper integration into Android.
+These partners have agreed to give us exclusive access to additional features of the phone,
+such as the ability to read (and therefore display) all of a user's notifications.
+Such access will be provided via the custom "system permissions" defined in this file,
+which must live in the root of the APK.
+
+For now, because of this comment, the file should only be included in debug builds.
+-->
+
+<permissions>
+  <uses-permission name="com.facebook.system.permission.FACEBOOK_SYSTEM_DASH_SERVICE"/>
+  <uses-permission name="com.facebook.system.permission.READ_NOTIFICATIONS"/>
+  <uses-permission name="com.facebook.system.permission.LAUNCH_DASH"/>
+  <uses-permission name="com.facebook.system.permission.LAUNCH_HOME"/>
+</permissions>

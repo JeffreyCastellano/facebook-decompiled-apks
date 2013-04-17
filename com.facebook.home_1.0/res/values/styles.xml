@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="error_text" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/error_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">36.0dip</item>
+        <item name="android:paddingRight">36.0dip</item>
+        <item name="android:shadowColor">@color/error_shadow_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:lineSpacingExtra">5.0dip</item>
+    </style>
+    <style name="launcher_action_button">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/black</item>
+        <item name="android:background">@drawable/white_button</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/notif_background" android:paddingLeft="@dimen/notification_message_left_padding" android:paddingTop="@dimen/notification_message_vertical_padding" android:paddingRight="@dimen/notification_message_right_padding" android:paddingBottom="@dimen/notification_message_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/notification_message_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@*android:color/black" android:id="@id/message_sender" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/notification_text" />
+    <TextView android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/notification_message_text" />
+    <TextView android:textStyle="bold" android:id="@id/message_attachment_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/notification_message_text" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Facebook Homeロゴ</string>
+    <string name="app_missing">Facebook Homeを利用するには、Facebookアプリをインストールする必要があります。</string>
+    <string name="app_missing_button_text">Facebookをインストール</string>
+    <string name="app_outdated">Facebook Homeを使用するには、Facebookアプリをアップデートする必要があります。</string>
+    <string name="app_outdated_button_text">Facebookをアップデート</string>
+    <string name="app_disabled">Facebookアプリが無効になっています。Facebook Homeを使用するには、これを有効にする必要があります。</string>
+    <string name="app_disabled_button_text">Facebookを有効にする</string>
+    <string name="app_security_mismatch">Facebook Homeと同じ証明書がFacebookアプリに必要です。</string>
+    <string name="app_security_mismatch_button_text">Facebookをインストール</string>
+    <string name="app_reenable_toast">[有効にする]をタップして、Facebook for Androidを再度有効にしてください。先にアップデートをアンインストールする必要がある場合があります。</string>
+</resources>

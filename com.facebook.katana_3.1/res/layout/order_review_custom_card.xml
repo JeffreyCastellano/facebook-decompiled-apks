@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_custom_card" android:background="@drawable/cell" android:padding="@dimen/standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_padding" android:layout_marginRight="@dimen/standard_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.UrlImage android:id="@id/ksimage_card_front" android:padding="2.0dip" android:layout_width="@dimen/order_overview_card_icon_width" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_custom_card_options" android:paddingLeft="@dimen/standard_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ksimage_card_front" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/standard_14pt_text_size" android:textStyle="bold" android:textColor="@color/standard_gray_3e4350" android:id="@id/text_custom_card_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/order_overview_custom_card_no_card" />
+        <TextView android:textSize="@dimen/standard_13pt_text_size" android:textColor="@color/standard_gray_808080" android:ellipsize="end" android:id="@id/text_custom_card_body_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook Home</string>
+    <string name="app_short_name">Home</string>
+    <string name="fbhome_logo_description">Facebook Homen logo</string>
+    <string name="app_missing">Sinun on asennettava Facebook-sovellus, jotta voit käyttää Facebook Homea.</string>
+    <string name="app_missing_button_text">Asenna Facebook</string>
+    <string name="app_outdated">Sinun on päivitettävä Facebook-sovellus, jotta voit käyttää Facebook Homea.</string>
+    <string name="app_outdated_button_text">Päivitä Facebook</string>
+    <string name="app_disabled">Facebook-sovellus on poistettu käytöstä. Sinun on otettava se käyttöön, jotta voit käyttää Facebook Homea.</string>
+    <string name="app_disabled_button_text">Ota Facebook käyttöön</string>
+    <string name="app_security_mismatch">Facebook-sovellus on allekirjoitettava samalla varmenteella kuin Facebook Home.</string>
+    <string name="app_security_mismatch_button_text">Asenna Facebook</string>
+    <string name="app_reenable_toast">Ota Facebook Androidille uudelleen käyttöön valitsemalla Ota käyttöön. Päivitysten asennukset on mahdollisesti poistettava ensin.</string>
+</resources>

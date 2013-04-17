@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.UrlImage android:layout_width="@dimen/page_identity_friends_here_now_profile_pic_size" android:layout_height="@dimen/page_identity_friends_here_now_profile_pic_size" android:layout_marginRight="5.0dip" orca:placeholderSrc="@drawable/no_avatar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto" />
